@@ -9,6 +9,7 @@
 }
 .bg-red{
     background-color: #f51112;
+    background-image: url("../img/banner_bg.png");
 }
 .header{
     width: 100%;

@@ -43,4 +43,10 @@
     .feedback img{
         width: 20%;
     }
+    .play_icon{
+        display: none;
+    }
+    .max-740{
+        max-width: 740px;
+    }
 }
