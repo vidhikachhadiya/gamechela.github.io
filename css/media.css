@@ -1,0 +1,46 @@
+@media (max-width:1024px){
+    .banner{
+        padding-bottom: 100px;
+    }
+}
+@media (max-width:992px){
+    .dropdown{
+        display: block;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .banner{
+        padding-bottom: 80px;
+    }
+    .feedback img{
+        width: 12%;
+    }
+}
+@media (max-width:767px) {
+    .banner{
+        text-align: center;
+    }
+    .banner h4{
+        display: none;
+    }
+    .choose h1{
+        padding-top: 20px;
+        text-align: center;
+    }
+    .choose img{
+        text-align: center;
+    }
+    .choose h5{
+        text-align: center;
+    }
+    .how_play h4{
+        padding-top: 30px;
+    }
+    .dwn .col-md-6{
+        text-align: center;
+    }
+    .feedback img{
+        width: 20%;
+    }
+}
