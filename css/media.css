@@ -1,3 +1,11 @@
+@media (max-width:1380px){
+    .typewriter-r{
+        display: block;
+      }
+      .typewriter{
+        display: none;
+      }
+}
 @media (max-width:1024px){
     .banner{
         padding-bottom: 100px;
