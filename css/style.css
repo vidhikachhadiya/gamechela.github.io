@@ -1,17 +1,20 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0 auto;
     text-transform: capitalize;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.red{
+
+.red {
     color: #f51112;
 }
-.bg-red{
+
+.bg-red {
     background-color: #f51112;
     background-image: url("../img/banner_bg.png");
 }
-.header{
+
+.header {
     width: 100%;
     padding-bottom: 80px;
     height: auto;
@@ -19,45 +22,64 @@
     background-attachment: fixed;
     clip-path: polygon(100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
     background-position: center;
-} 
-.faq-header{
+}
+
+.faq-header {
     width: 100%;
     height: auto;
     background-image: url("../img/empty-baseball-stadium-arena-with-fans-crowd-sunny-day-lights_336913-605.jpg");
     background-attachment: fixed;
     background-position: center;
-} 
+}
+
 .features_section {
     border-radius: 60px;
     margin: -100px 0 50px 0;
     box-shadow: rgb(0 0 0 / 10%) 0px 0px 50px 18px;
     position: relative;
 }
-.royal-cash{
+
+.royal-cash {
     transform: scale(.9);
 }
-.royal-cash:hover{
+
+.royal-cash:hover {
     transform: scale(1);
     transition: all .5s;
 }
-.choose{
+
+.choose {
     padding: 70px 0;
 }
-.feedback{
+
+.feedback {
     padding: 70px 0 50px 0;
 }
-.questions{
+
+.questions {
     padding: 70px 0;
 }
-.dwn{
+
+.dwn {
     background-image: url("../img/empty-baseball-stadium-arena-with-fans-crowd-sunny-day-lights_336913-605.jpg");
     background-attachment: fixed;
     padding: 70px 0;
     background-position: center;
 }
-.how_play{
+
+.how_play {
     padding: 70px 0;
 }
+
+.how_hover {
+    transform: scale(.9);
+}
+
+.how_hover:hover {
+    transform: scale(1);
+    transition: all .5s;
+}
+
 /* .fixed{
     bottom: 10px;
     box-shadow: rgba(218, 10, 10, 0.25) 0px 0px 20px 5px;
@@ -75,16 +97,19 @@
     padding: 10px;
     border-radius: 8px;
     z-index: 6;
-    display: flex!important;
+    display: flex;
     box-shadow: rgba(218, 10, 10, 0.3) 0px 0px 10px 0;
 }
+
 .sticky_btns .btnsbox {
     display: flex;
 }
+
 .sticky_btns a {
     text-transform: capitalize;
     text-align: left;
 }
+
 .btnsbox a {
     text-decoration: none;
     min-width: 175px;
@@ -94,14 +119,14 @@
     align-items: center;
 }
 
-footer{
+footer {
     background-color: rgba(0, 0, 0, 0.9);
     background-image: url("../img/banner_bg.png");
     padding: 70px 0 50px 0;
     background-position: center;
 }
 
-.dropdown{
+.dropdown {
     display: none;
 }
 
@@ -126,30 +151,40 @@ footer{
 } */
 
 
-.typewriter h2{
+.typewriter h2 {
     overflow: hidden;
-    border-right: 1px solid orange;
+    border-right: 2px solid orange;
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: .15em;
-    animation: 
-      typing 3.5s steps(40, end),
-      blink-caret .75s step-end infinite;
-  }
-  
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: orange; }
-  }
+    animation:
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
 
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
 
-  .typewriter-r{
+    to {
+        width: 100%
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: orange;
+    }
+}
+.typewriter-r {
     display: none;
-  }
+}
