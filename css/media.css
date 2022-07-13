@@ -58,3 +58,9 @@
         max-width: 740px;
     }
 }
+@media (max-width:576px) {
+    
+    .max-740{
+        max-width: 500px;
+    }
+}
