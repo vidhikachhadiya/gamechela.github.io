@@ -72,11 +72,11 @@
 }
 
 .how_hover {
-    transform: scale(.9);
+    transform: scale(1);
 }
 
 .how_hover:hover {
-    transform: scale(1);
+    transform: scale(1.2);
     transition: all .5s;
 }
 
