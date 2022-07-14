@@ -101,11 +101,6 @@
     display: flex;
 }
 
-.sticky_btns a {
-    text-transform: capitalize;
-    text-align: left;
-}
-
 .btnsbox a {
     text-decoration: none;
     min-width: 175px;
