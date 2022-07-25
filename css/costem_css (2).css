@@ -4,7 +4,7 @@
     margin: 0 auto;
 }
 .container-1{
-    max-width: 1440px;
+    max-width: 1600px;
 }
 .container-fluid{
     padding: 0;
@@ -39,6 +39,10 @@ header .logo{
     padding: 5px;
     transition: all .5s;
     color: #fff;
+}
+.values:hover img{
+    transform: rotate(-360deg);
+    transition: all .5s;
 }
 /* canvas {
     display: block; }
