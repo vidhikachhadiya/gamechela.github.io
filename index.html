@@ -5,414 +5,146 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>game_chela</title>
-
+    <title>Vasundhara</title>
     <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/style.min.css"> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/costem_css.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
-    <header class="header">
-        <nav>
-            <div class="container">
-                <div class="d-flex justify-content-between align-items-center py-3">
-                    <a href="index.html" class="text-decoration-none">
-                        <img src="img/pixlr-bg-result.png" alt="" width="90px" height="90px" class="img-fluid">
+
+    <header class="bg-white shadow-sm position-sticky left-0 top-0">
+        <div class="container-fluid padding-0">
+            <div class="d-flex align-items-center justify-content-center">
+                <div class="col-xl-2 col-lg-2 col-md-5 d-flex align-items-center bg-primary1">
+                    <a href="js:">
+                            <img src="img/logo.svg" alt="" class="img-fluid" width="250px" height="80px">
                     </a>
-
-                    <div class="dropdown">
-                        <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            &Xi;
-                        </button>
-
-                        <ul class="dropdown-menu drop-res">
-                            <li>
-                                <a class="dropdown-item text-dark py-2 p-5 fs-5" href="how_play.html">how to play</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item text-darkpy-2 ps-5 fs-5" href="FAQ.html">FAQ'S</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item text-dark py-2 ps-5 fs-5" href="about_us.html">about us</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="nav-bar">
-                        <ul class="list-unstyled d-flex">
-                            <li class="p-4">
-                                <a href="how_play.html" class="text-white text-decoration-none fw-normal fs-5">how to play</a>
-                            </li>
-                            <li class="p-4">
-                                <a href="FAQ.html" class="text-white text-decoration-none fw-normal fs-5">FAQ'S</a>
-                            </li>
-                            <li class="p-4">
-                                <a href="about_us.html" class="text-white text-decoration-none fw-normal fs-5">about us</a>
-                            </li>
-                        </ul>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-5 d-flex align-items-center" style="font-family: Lobster Two;">
+                    <div class="we p-l-25 font-25">
+                        <a class="text-decoration-none fw-bold text-primary" href="js:">We're Hiring</a>
                     </div>
                 </div>
-                <div class="row justify-content-between align-items-center banner">
-                    <div class="col-md-6 text-white px-5">
-                        <h1 class="typewriter-r fw-bold py-3">A Step Towards Your VISION</h1>
-
-                        <div class="typewriter">
-                            <h2>A Step Towards Your vision.!</h2>
-                        </div>
-                        <h4 class="fw-normal py-3">Lorem ipsum dolor sit amet.</h3>
-                            <div class="py-3 pb-5 dwn-btn">
-                                <a href="https://royal11.in/APK/royal11.apk" class="text-decoration-none">
-                                    <img src="img/red-android.svg" alt="" class="img-fluid" width="25%">
-                                </a>
-                                <a href="https://royal11.in/APK/royal11.apk" class="text-decoration-none">
-                                    <img src="img/red-apple.svg" alt="" class="img-fluid" width="25%">
-                                </a>
-                            </div>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="img/259-2595872_https-fantasy-iplt20-cricket-attax-2018-19_prev_ui.png" alt="" class="img-fluid px-5">
-                    </div>
+                <div class="col-xl-6 col-lg-0 col-md-0 d-flex align-items-center justify-content-end">
+                    <nav class="nav-bar1 ">
+                        <ul class="d-flex align-items-center m-b-0 list-unstyled">
+                            <li class="px-3 font-20 text-primary">home</li>
+                            <li class="px-3 font-20 text-primary">servies</li>
+                            <li class="px-3 font-20 text-primary">portfolio</li>
+                            <li class="px-3 font-20 text-primary">career</li>
+                            <li class="px-3 font-20 text-primary">blog</li>
+                            <li class="px-3 font-20 text-primary">about us</li>
+                        </ul>
+                    </nav>
                 </div>
+                
+                <div class="col-xl-2 col-lg-2 col-md-0 bg-primary1">
+                        <img src="img/con_left.svg" alt="" class="img-fluid call-header" width="250px" height="80px">
+                </div>
+                
+                <div class="col-md-2 header-menu p-r-25 dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-bars text-primary font-25"></i>
+                </div>
+                <ul class="dropdown-menu w-100 mt-4" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item py-2 font-20 px-5" href="js:">home</a></li>
+                    <li><a class="dropdown-item py-2 font-20 px-5" href="js:">servises</a></li>
+                    <li><a class="dropdown-item py-2 font-20 px-5" href="js:">portfolio</a></li>
+                    <li><a class="dropdown-item py-2 font-20 px-5" href="js:">career</a></li>
+                    <li><a class="dropdown-item py-2 font-20 px-5" href="js:">blog</a></li>
+                    <li><a class="dropdown-item py-2 font-20 px-5" href="js:">about us</a></li>
+                  </ul>
             </div>
-        </nav>
+        </div>
     </header>
 
     <!-- back to top -->
 
     <div id="to-top" title="back to top" class="text-white"><i class="fa-solid fa-arrow-up fs"></i></div>
 
-    <section>
-        <div class="container">
-            <div class="features_section bg-white">
-                <!-- <h1 class="text-center pt-5 border-bottom border-danger w-25 border-3 pb-2">
-                    our features
-                </h1> -->
-                <div class="row p-2 pt-5">
-                    <div class="col-md-4 text-center royal-cash">
-                        <div>
-                            <img src="img/income.png" alt="" width="20%" class="img-fluid">
-                        </div>
-                        <h3 class="pt-3">Royal Cash Reward</h3>
-                        <p class="pt-2">Earn 5% Royal Cash additional on deposit & winnings*</p>
-                    </div>
-                    <div class="col-md-4 text-center royal-cash">
-                        <div>
-                            <img src="img/insert.png" alt="" width="20%" class="img-fluid">
-                        </div>
-                        <h3 class="pt-3">Instant Cash Withdrawals</h3>
-                        <p class="pt-2">Enjoy instant withdrawals on Royal11 and feel
-                            safe and secure.</p>
-                    </div>
-                    <div class="col-md-4 text-center royal-cash">
-                        <div>
-                            <img src="img/technical-support.png" width="20%" alt="" class="img-fluid">
-                        </div>
-                        <h3 class="pt-3">Great Support</h3>
-                        <p class="pt-2">One of the best and dedicated customer support.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- <section>
-        <div class="fixed text-center position-fixed start-50 translate-middle-x bg-light rounded-pill py-2 w-25">
-            <a href="https://royal11.in/APK/royal11.apk" class="text-decoration-none">
-                <img src="img/red-android.svg" alt="" class="img-fluid" width="25%">
-            </a>
-            <a href="https://royal11.in/APK/royal11.apk" class="text-decoration-none">
-                <img src="img/red-apple.svg" alt="" class="img-fluid" width="25%">
-            </a>
+        <div id="particles-js">
+
         </div>
     </section> -->
-
-
-    <section class="choose">
-        <div class="container">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-md-6 text-center">
-                    <img src="img/pixlr-bg-result.png" alt="" class="img-fluid">
-                </div>
-                <div class="col-md-6">
-                    <h1 class="pb-2">
-                        why choose <span class="red">GAME</span>
+    <section class="p-t-80 p-b-80 bg-light">
+        <div class="container mx-auto">
+            <div class="row align-items-center">
+                <div class="col-md-7">
+                    <h3 class="fw-bold p-b-15">We Provide</h3>
+                    <h1 class="text-primary fw-bold p-b-15 font-50">
+                        Game Development
                     </h1>
-                    <h5 class="text-secondary">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo est distinctio corporis eligendi
-                        omnis? Repellendus!
-                    </h5>
-                    <ol>
-                        <li class="text-secondary">
-                            <p class="text-secondary pt-4 ps-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Illo sapiente temporibus, dolorum mollitia, corporis in nihil assumenda aliquam magnam
-                                neque nobis similique reiciendis deserunt repellat ut, ullam voluptate! Mollitia,
-                                voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </li>
-                        <li class="text-secondary">
-                            <p class="text-secondary pt-2 ps-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sapiente temporibus, dolorum mollitia, corporis in nihil repellat ut, ullam voluptate! Mollitia, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </li>
-                    </ol>
+                    <p class="text-secondary font-18">Having specialists who develop innovative solutions to deliver user friendly and perfectly organized products for every project.</p>
+                </div>
+                <div class="col-md-5">
+                    <img src="img/technology.svg" alt="">
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="how_play bg-light">
-        <div class="container text-center">
-            <h1>
-                how to <span class="red">play</span>
-            </h1>
-            <h5 class="text-secondary w-75 pb-5">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo est distinctio corporis eligendi omnis?
-                Repellendus!
-            </h5>
-            <div class="row py-1">
-                <div class="col-md-4 px-5 how_hover">
-                    <h4>
-                        Select a match
-                    </h4>
-                    <p>Lorem ipsum, dolor sit consectetur elit. Similique, voluptates.</p>
-                    <img src="img/step_img1.webp" alt="" class="img-fluid shadow">
+    <section class="p-t-80 p-b-80">
+        <div class="container-1 container mx-auto">
+            <div class="row justify-content-center align-items-center" id="lazzy2">
+                <div class="features col-xl-2 col-lg-3 col-md-4 col-sm-6 px-4 col-6 p-t-10 text-center mx-auto">
+                    <img src="img/upwork.svg" alt="" class="img-fluid">
+                    <p class="text-secondary font-20 fw-bold">
+                        Top Rated Plus
+                    </p>
                 </div>
-                <div class="col-md-4 px-5 how_hover">
-                    <h4>
-                        Create Your Team
-                    </h4>
-                    <p>Use your sports skill to pick the right players for your team.</p>
-                    <img src="img/step_img2.webp" alt="" class="img-fluid shadow">
+                <div class="features col-xl-2 col-lg-3 col-md-4 col-sm-6 px-4 col-6 p-t-10 text-center mx-auto">
+                    <img src="img/year_exper.svg" alt="" class="img-fluid">
+                    <p class="text-secondary font-20 fw-bold">
+                        Years Of Experience
+                    </p>
                 </div>
-                <div class="col-md-4 px-5 how_hover">
-                    <h4>
-                        Join Contests fast
-                    </h4>
-                    <p>Choose between diffrent contests and win money fast.</p>
-                    <img src="img/step_img3.webp" alt="" class="img-fluid shadow">
+                <div class="features col-xl-2 col-lg-3 col-md-4 col-sm-6 px-4 col-6 p-t-10 text-center mx-auto">
+                    <img src="img/growth.svg" alt="" class="img-fluid">
+                    <p class="text-secondary font-20 fw-bold">
+                        Growth Rate
+                    </p>
                 </div>
-            </div>
-        </div>
-    </section>
-    <section class="dwn">
-        <div class="container">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-md-6 px-5">
-                    <img src="img/p2304493_prev_ui.png" alt="" class="img-fluid">
+                <div class="features col-xl-2 col-lg-3 col-md-4 col-sm-6 px-4 col-6 p-t-10 text-center mx-auto">
+                    <img src="img/expert_team.svg" alt="" class="img-fluid">
+                    <p class="text-secondary font-20 fw-bold">
+                        Experts Team
+                    </p>
                 </div>
-                <div class="col-md-6 px-5">
-                    <h1 class="fw-bold py-3 text-white">A Step Towards Your VISION</h1>
-                    <h4 class="fw-normal py-3 text-white">Lorem ipsum dolor sit amet.</h3>
-                        <div class="py-3">
-                            <a href="https://royal11.in/APK/royal11.apk" class="text-decoration-none">
-                                <img src="img/red-android.svg" alt="" class="img-fluid" width="25%">
-                            </a>
-                            <a href="https://royal11.in/APK/royal11.apk" class="text-decoration-none">
-                                <img src="img/red-apple.svg" alt="" class="img-fluid" width="25%">
-                            </a>
-                        </div>
+                <div class="features col-xl-2 col-lg-3 col-md-4 col-sm-6 px-4 col-6 p-t-10 text-center mx-auto">
+                    <img src="img/project_acc.svg" alt="" class="img-fluid">
+                    <p class="text-secondary font-20 fw-bold">
+                        Projects Accomplished
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="questions bg-light">
+    <section class="p-t-80 p-b-80 bg-light">
         <div class="container">
-            <div>
+            <div class="text-center">
+                <h2 class="p-b-5">
+                    What Service We Provide To Customers
+                </h2>
                 <div>
-                    <div class="text-center">
-                        <h1 class="pb-3">Frequently asked <span class="red">questions</span></h1>
-
-                        <p class="text-secondary fs-6 pb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis perspiciatis neque recusandae distinctio aliquam! Eligendi error eum perferendis
-                            deserunt numquam praesentium beatae quidem labore voluptatibus sapiente, explicabo,
-                            asperiores soluta adipisci!</p>
-                    </div>
-            </div>
-            <div>
-                <div class="accordion accordion-flush w-75" id="accordionFlushExample">
-                    <div class="accordion-item py-2">
-                        <h2 class="accordion-header" id="flush-headingOne">
-                            <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseOne" aria-expanded="false"
-                                aria-controls="flush-collapseOne">
-                                What is Fantasy Cricket?
-                            </button>
-                        </h2>
-                        <div id="flush-collapseOne" class="accordion-collapse collapse show"
-                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body fs-14">
-                                <p>Cricket is not just a sport in India, it's a religion. From Tests to T20s, you
-                                    can join contests for all formats of international cricket on Royal11. Apart
-                                    from ICC matches and tournaments, users can also play online cricket games from
-                                    various cricket leagues like the IPL - followed and played across the world.</p>
-
-                                <p>But how does one join and play a fantasy cricket match on Royal11? All you need
-                                    to do is register using your email address and mobile number. An even quicker
-                                    way to sign up is by connecting your Google or Facebook account. The game comes
-                                    with a set of rules that are put in place to ensure #FairPlay for everyone.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item py-2">
-                        <h2 class="accordion-header" id="flush-headingTwo">
-                            <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                                aria-controls="flush-collapseTwo">
-                                How do I sign up on game?
-                            </button>
-                        </h2>
-                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
-                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body fs-14">
-                                <p>Easy breezy! Once you are on royal11.in, choose your sport and register by
-                                    filling out a short form, or just log in with your Facebook or Google account to
-                                    play in our Fantasy Cricket League.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item py-2">
-                        <h2 class="accordion-header" id="flush-headingThree">
-                            <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseThree" aria-expanded="false"
-                                aria-controls="flush-collapseThree">
-                                Why can’t I log in to my game account?
-                            </button>
-                        </h2>
-                        <div id="flush-collapseThree" class="accordion-collapse collapse"
-                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body fs-14">
-                                <p>Sorry for the inconvenience! Please check whether you entered the correct email
-                                    address and password and try again. If you have forgotten your password, click
-                                    on “Forgot Password,” enter your email address registered on royal11.in, and we
-                                    will immediately send you an email with a link to reset your password. Follow
-                                    the instructions given and you will be able to play online Fantasy Cricket games
-                                    on royal11.in.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item py-2">
-                        <h2 class="accordion-header" id="flush-headingfour">
-                            <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapsefour" aria-expanded="false"
-                                aria-controls="flush-collapsefour">
-                                What is the Royal Cash Reward?
-                            </button>
-                        </h2>
-                        <div id="flush-collapsefour" class="accordion-collapse collapse"
-                            aria-labelledby="flush-headingfour" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body fs-14">Royal Cash Reward is an additional amount that the
-                                fantasy cricket platform offers to their users on their deposited and winning
-                                amount. Which means, your deposited and winning amount will earn for you when it is
-                                on your wallet and you can use it to join a paid contest.</div>
-                        </div>
-                    </div>
+                    <img src="img/line.svg" alt="" class="img-fluid" width="190px">
                 </div>
-            </div>
-        </div>
-        </div>
-    </section>
-
-    <section class="feedback">
-        <div class="container text-center">
-            <h1>
-                What Our <span class="red">Users</span> Say
-            </h1>
-            <h5 class="text-secondary">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo est distinctio corporis eligendi omnis?
-                Repellendus!
-            </h5>
-            <div class="pt-5">
-                <img src="img/profile_user.jpg" alt="" class="img-fluid rounded-circle mx-4" width="8%">
-                <h4 class="pt-3">Sachin Sharma</h4>
-                <p>Jaipur</p>
-                <p class="w-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione similique omnis praesentium et rem tempora cupiditate necessitatibus iste? Deserunt, at ducimus odio voluptas nulla aut, recusandae magnam tempore quod, eligendi tempora amet labore laboriosam quo facilis esse ab maxime dolores?</p>
             </div>
         </div>
     </section>
 
-
-    <div class="sticky_btns">
-        <div class="btnsbox">
-            <a href="https://royal11.in/APK/royal11.apk" class="p-0 pe-1">
-                <img src="img/red-android.svg" class="img-fluid">
-            </a>
-            <a href="https://royal11.in/APK/royal11.apk" class="p-0 ps-1">
-                <img src="img/red-apple.svg" class="img-fluid">
-            </a>
-        </div>
-    </div>
-
-    <footer>
-        <div class="container text-center">
-            <div class="row justify-content-center border-bottom border-secondary pb-4">
-                <div class="col-md-6">
-                    <a href="index.html" class="text-white text-decoration-none">
-                        <img src="img/pixlr-bg-result.png" alt="" width="90px" height="90px" class="img-fluid">
-                    </a>
-                    <h2 class="text-white pb-1">Get in Touch</h2>
-                    <a href="js:" class="text-secondary text-decoration-none">
-                        <i class="fa-solid fa-envelope"></i>
-                        support@vision11.in
-                    </a>
-                    <h2 class="text-white pb-1 pt-4">Business Inquiries :</h2>
-                    <a href="js:" class="text-secondary text-decoration-none">
-                        <i class="fa-solid fa-envelope"></i>
-                        business@vision11.in
-                    </a>
-                </div>
-                <div class="col-md-6 pt-4">
-                    <h1 class="text-white pb-3">menu</h1>
-                    <ul class="p-0 list-unstyled">
-                        <li class="pb-1">
-                            <a href="about_us.html" class="text-white text-decoration-none">
-                                <h5 class="text-secondary">
-                                    about us
-                                </h5>
-                            </a>
-                        </li>
-                        <li class="pb-1">
-                            <a href="how_play.html" class="text-white text-decoration-none">
-                                <h5 class="text-secondary">
-                                    How to Play
-                                </h5>
-                            </a>
-                        </li>
-                        <li class="pb-1">
-                            <a href="FAQ.html" class="text-white text-decoration-none">
-                                <h5 class="text-secondary">
-                                    FAQ'S
-                                </h5>
-                            </a>
-                        </li>
-                        <li class="py-1">
-                            <a href="fair_play.html" class="text-white text-decoration-none">
-                                <h5 class="text-secondary">
-                                    Fair Play
-                                </h5>
-                            </a>
-                        </li>
-                        <li class="pb-1">
-                            <a href="t&c.html" class="text-white text-decoration-none">
-                                <h5 class="text-secondary">
-                                    Terms & Conditions
-                                </h5>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="copy_footer text-center text-white">
-                <div class="container pt-5">
-                    <p>Copyright © 2022 Royal11. All Rights Reserved.</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+    
 
 
-    <script src="js/bootstrap.bundle.min.js"></script>
+
+
+
     <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
@@ -444,6 +176,144 @@
             });
         });
     </script>
+    <!-- <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https:https://threejs.org/examples/js/libs/stats.min.js"></script>
+    <script>
+        /* ---- particles.js config ---- */
+        particlesJS("particles-js", {
+            "particles": {
+                "number": {
+                    "value": 380,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#c7c7c7"
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    },
+                    "image": {
+                        "src": "img/github.svg",
+                        "width": 80,
+                        "height": 100
+                    }
+                },
+                "opacity": {
+                    "value": 0.5,
+                    "random": false,
+                    "anim": {
+                        "enable": false,
+                        "speed": 0.5,
+                        "opacity_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 3,
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 90,
+                        "size_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#c7c7c7",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 6,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "grab"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 140,
+                        "line_linked": {
+                            "opacity": 1
+                        }
+                    },
+                    "bubble": {
+                        "distance": 400,
+                        "size": 40,
+                        "duration": 2,
+                        "opacity": 8,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 200,
+                        "duration": 0.4
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+        /* ---- stats.js config ---- */
+        var count_particles, stats, update;
+        stats = new Stats;
+        stats.setMode(0);
+        stats.domElement.style.position = 'absolute';
+        stats.domElement.style.left = '0px';
+        stats.domElement.style.top = '0px';
+        document.body.appendChild(stats.domElement);
+        count_particles = document.querySelector('.js-count-particles');
+        update = function () {
+            stats.begin();
+            stats.end();
+            if (window.pJSDom[0].pJS.particles &&
+                window.pJSDom[0].pJS.particles.array) {
+                count_particles.innerText =
+                    window.pJSDom[0].pJS.particles.array.length;
+            }
+            requestAnimationFrame(update);
+        };
+        requestAnimationFrame(update);
+    </script> -->
+
+
+
 </body>
 
 </html>

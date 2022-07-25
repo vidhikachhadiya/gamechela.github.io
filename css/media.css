@@ -1,66 +1,24 @@
-@media (max-width:1380px){
-    .typewriter-r{
-        display: block;
-      }
-      .typewriter{
-        display: none;
-      }
-}
-@media (max-width:1024px){
-    .banner{
-        padding-bottom: 100px;
+@media (max-width: 1024px) {
+    .nav-bar1 ul li{
+        font-size: 18px;
+
     }
-}
-@media (max-width:992px){
-    .dropdown{
-        display: block;
-    }
-    .nav-bar{
-        display: none;
-    }
-    .banner{
-        padding-bottom: 80px;
-    }
-    .feedback img{
-        width: 12%;
-    }
-}
-@media (max-width:767px) {
-    .banner{
-        text-align: center;
-    }
-    .banner h4{
-        display: none;
-    }
-    .choose h1{
-        padding-top: 20px;
-        text-align: center;
-    }
-    .choose img{
-        text-align: center;
-    }
-    .choose h5{
-        text-align: center;
-    }
-    .how_play h4{
-        padding-top: 30px;
-    }
-    .dwn .col-md-6{
-        text-align: center;
-    }
-    .feedback img{
-        width: 20%;
-    }
-    .play_icon{
-        display: none;
-    }
-    .max-740{
-        max-width: 740px;
-    }
-}
-@media (max-width:576px) {
     
-    .max-740{
-        max-width: 400px;
+}
+@media (max-width: 992px) {
+    
+    .call-header{
+        display: none;
+    }header .nav-bar1{
+        display: none;
     }
+    .header-menu{
+        display: block;
+    }
+}
+@media (max-width: 768px) {
+    header .we{
+        display: none;
+    }
+    
 }
