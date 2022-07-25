@@ -1,3 +1,8 @@
+@media (min-width: 1400px) {
+    .container-2{
+        max-width: 1600px;
+    }
+}
 @media (max-width: 1024px) {
     .nav-bar1 ul li{
         font-size: 18px;
