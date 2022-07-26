@@ -141,6 +141,7 @@ header .logo {
 
 .values1:hover {
     border-top: 2px solid #0093ed;
+    border-bottom: 2px solid #0093ed;
     transition: all .3s;
 }
 
