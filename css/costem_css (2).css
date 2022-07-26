@@ -161,6 +161,9 @@ header .logo {
     height: 25px;
     background-size: 100% 100%;
 }
+.about-img-h:hover img{
+    filter: invert(10%) sepia(40%) saturate(6996%) hue-rotate(173deg) brightness(94%) contrast(98%);
+}
 /* .point li:before{
     position: absolute;
     content: "";
