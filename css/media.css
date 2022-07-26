@@ -29,6 +29,18 @@
         display: block;
     }
 }
+@media (max-width: 768px) {
+    
+    .black-f{
+        padding: 15px;
+    }
+    .red-f{
+        padding: 15px;
+    }
+    .ywllow-f{
+        padding: 15px;
+    }
+}
 @media (max-width: 576px) {
     
     header .we{
