@@ -149,6 +149,26 @@ header .logo {
     color: #0093ed;
 }
 
+.info_list li:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 5px;
+    background: url(../img/arrow_circle.svg) no-repeat;
+    width: 25px;
+    height: 25px;
+    background-size: 100% 100%;
+}
+/* .point li:before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 5px;
+    background: url("../img/arrow_circle.svg") no-repeat;
+    width: 25px;
+    height: 25px;
+    background-size: 100% 100%;
+} */
 /* canvas {
     display: block; }
 #particles-js {
