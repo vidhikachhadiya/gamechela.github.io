@@ -3,10 +3,14 @@
         max-width: 1600px;
     }
 }
+@media (max-width: 1320px) {
+    header .we{
+        display: none;
+    }
+}
 @media (max-width: 1024px) {
     .nav-bar1 ul li{
         font-size: 18px;
-
     }
     
 }
@@ -20,10 +24,16 @@
     .header-menu{
         display: block;
     }
+    header .we{
+        display: block;
+    }
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
+    
     header .we{
         display: none;
     }
-    
+    .orange a{
+        display: none;
+    }
 }
