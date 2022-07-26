@@ -96,6 +96,20 @@ header .logo{
     border-color: #f5ad00;
     box-shadow: 0 8px 0 0 #f5ad00;
 }
+.f-para{
+    padding-bottom: 7px;
+    margin-bottom: 7px;
+}
+.f-para1{
+    color: #1a313d;
+}
+.f-para:hover .f-para1{
+    padding-left: 10px;
+    color: #0093ed;
+}
+.f-para:hover .f-para-i{
+    color: #0093ed;
+}
 /* canvas {
     display: block; }
 #particles-js {
