@@ -177,6 +177,61 @@ header .logo {
     height: 100%;
     background-repeat: no-repeat;
 }
+
+.work-1{
+    background-image: url("../img/1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50px;
+    width: 100%;
+    height: auto!important;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.work-2{
+    background-image: url("../img/2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50px;
+    width: 100%;
+    height: auto!important;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.work-3{
+    background-image: url("../img/3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50px;
+    width: 100%;
+    height: auto!important;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+/* .over .line-gif:before{
+    content: '';
+    position: absolute;
+    width: 29px;
+    height: 148px;
+    display: block;
+    background-image: url("../img/line.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: -15px;
+}
+.over .line-gif:after{
+    content: '';
+    position: absolute;
+    width: 29px;
+    height: 148px;
+    display: block;
+    background-image: url("../img/line.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    right: -15px;
+
+    
+} */
 /* .point li:before{
     position: absolute;
     content: "";
