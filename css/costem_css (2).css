@@ -208,6 +208,9 @@ header .logo {
     background-attachment: fixed;
     overflow: hidden;
 }
+.work-media{
+    display: none;
+}
 /* .over .line-gif:before{
     content: '';
     position: absolute;

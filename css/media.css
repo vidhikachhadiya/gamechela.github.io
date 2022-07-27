@@ -8,6 +8,14 @@
         display: none;
     }
 }
+@media (max-width: 1200px) {
+    .work{
+        display: none;
+    }
+    .work-media{
+        display: block;
+    }
+}
 @media (max-width: 1024px) {
     .nav-bar1 ul li{
         font-size: 18px;
