@@ -211,40 +211,15 @@ header .logo {
 .work-media{
     display: none;
 }
-/* .over .line-gif:before{
-    content: '';
-    position: absolute;
-    width: 29px;
-    height: 148px;
-    display: block;
-    background-image: url("../img/line.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    left: -15px;
+.hvrbox{
+    padding: 10px;
 }
-.over .line-gif:after{
-    content: '';
-    position: absolute;
-    width: 29px;
-    height: 148px;
-    display: block;
-    background-image: url("../img/line.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    right: -15px;
-
-    
-} */
-/* .point li:before{
-    position: absolute;
-    content: "";
-    left: 0;
-    top: 5px;
-    background: url("../img/arrow_circle.svg") no-repeat;
-    width: 25px;
-    height: 25px;
-    background-size: 100% 100%;
-} */
+.hvrbox:hover .s-btn{
+    background-color: #0093ed;
+    padding: 5px;
+    transition: all .5s;
+    color: #fff;
+}
 /* canvas {
     display: block; }
 #particles-js {
