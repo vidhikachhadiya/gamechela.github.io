@@ -214,12 +214,6 @@ header .logo {
 .hvrbox{
     padding: 10px;
 }
-.hvrbox:hover .s-btn{
-    background-color: #0093ed;
-    padding: 5px;
-    transition: all .5s;
-    color: #fff;
-}
 
 
 /* canvas {
