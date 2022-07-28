@@ -154,17 +154,6 @@ header .logo {
 .values1:hover p {
     color: var(--text-primary-color);
 }
-
-.info_list li:before {
-    position: absolute;
-    content: "";
-    left: 0;
-    top: 5px;
-    background: url(../img/arrow_circle.svg) no-repeat;
-    width: 25px;
-    height: 25px;
-    background-size: 100% 100%;
-}
 .about-img-h:hover img{
     filter: invert(10%) sepia(40%) saturate(6996%) hue-rotate(173deg) brightness(94%) contrast(98%);
 }
