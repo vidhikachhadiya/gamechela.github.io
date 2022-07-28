@@ -42,8 +42,9 @@ header .logo {
 }
 
 .service:hover img {
-    transform: rotate(-360deg);
-    transition: all .5s;
+    transform: scale(1.1);
+    transition: .1s;
+    filter: invert(45%) sepia(57%) saturate(3173%) hue-rotate(177deg) brightness(94%) contrast(103%);
 }
 
 .service:hover .s-btn {
@@ -56,13 +57,15 @@ header .logo {
     border-radius: 25px;
 }
 .values:hover img {
-    transform: rotate(-360deg);
-    transition: all .5s;
+    transform: scale(1.1);
+    transition: .1s;
+    filter: invert(45%) sepia(57%) saturate(3173%) hue-rotate(177deg) brightness(94%) contrast(103%);
 }
 
 .values1:hover img {
-    transform: rotate(-360deg);
-    transition: all .5s;
+    transform: scale(1.1);
+    transition: .1s;
+    filter: invert(45%) sepia(57%) saturate(3173%) hue-rotate(177deg) brightness(94%) contrast(103%);
 }
 
 .aqua {
@@ -214,6 +217,67 @@ header .logo {
 .hvrbox{
     padding: 10px;
 }
+.work-1-game{
+    background-image: url("../img/1\ \(1\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50px;
+    width: 100%;
+    height: auto!important;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.work-2-game{
+    background-image: url("../img/2\ \(1\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50px;
+    width: 100%;
+    height: auto!important;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.work-3-game{
+    background-image: url("../img/3\ \(1\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50px;
+    width: 100%;
+    height: auto!important;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.work-1-web{
+    background-image: url("../img/1\ \(3\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50px;
+    width: 100%;
+    height: auto!important;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.work-2-web{
+    background-image: url("../img/2\ \(3\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50px;
+    width: 100%;
+    height: auto!important;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.work-3-web{
+    background-image: url("../img/3\ \(3\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50px;
+    width: 100%;
+    height: auto!important;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
 
 
 /* canvas {
