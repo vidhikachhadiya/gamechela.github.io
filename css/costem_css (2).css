@@ -37,8 +37,9 @@ header .logo {
 }
 
 .features:hover {
-    transform: rotate(-360deg);
-    transition: all .5s;
+    transform: scale(1.1);
+    transition: .1s;
+    filter: invert(45%) sepia(57%) saturate(3173%) hue-rotate(177deg) brightness(94%) contrast(103%);
 }
 
 .service {
@@ -312,7 +313,7 @@ header .logo {
     border: 1px solid white;
     font-weight: bold;
     size: 20px;
-    border-radius: 10px;
+    border-radius: 50px;
     display: none;
     z-index: 99;
 }
