@@ -282,8 +282,9 @@ header .logo {
     background-attachment: fixed;
     overflow: hidden;
 }
-
-
+.industries{
+    display: none;
+}
 
 /* canvas {
     display: block; }

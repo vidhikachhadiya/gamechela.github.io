@@ -36,6 +36,12 @@
     header .we{
         display: block;
     }
+    .industries1{
+        display: none;
+    }
+    .industries{
+        display: block;
+    }
 }
 @media (max-width: 768px) {
     
