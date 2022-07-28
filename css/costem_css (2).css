@@ -36,12 +36,6 @@ header .logo {
     display: none;
 }
 
-.features:hover {
-    transform: scale(1.1);
-    transition: .1s;
-    filter: invert(45%) sepia(57%) saturate(3173%) hue-rotate(177deg) brightness(94%) contrast(103%);
-}
-
 .service {
     border-radius: 25px;
 }
