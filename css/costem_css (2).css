@@ -1,3 +1,7 @@
+:root{
+    --text-primary-color: #0093ed;
+    --bg-primary: #0093ed;
+}
 * {
     box-sizing: border-box;
     text-transform: capitalize;
@@ -13,19 +17,19 @@
 }
 
 .text-primary {
-    color: #0093ed !important
+    color: var(--text-primary-color) !important
 }
 header{
     z-index: 2;
 }
 
 header .logo {
-    background-color: #0093ed;
+    background-color: var(--bg-primary);
     padding: 5px 20px;
 }
 
 .bg-primary1 {
-    background-color: #0093ed;
+    background-color: var(--bg-primary);
 }
 
 .header-menu {
@@ -48,7 +52,7 @@ header .logo {
 }
 
 .service:hover .s-btn {
-    background-color: #0093ed;
+    background-color: var(--bg-primary);
     padding: 5px;
     transition: all .5s;
     color: #fff;
@@ -140,21 +144,21 @@ header .logo {
 
 .f-para:hover .f-para1 {
     padding-left: 10px;
-    color: #0093ed;
+    color: var(--text-primary-color);
 }
 
 .f-para:hover .f-para-i {
-    color: #0093ed;
+    color: var(--text-primary-color);
 }
 
 .values1:hover {
-    border-top: 2px solid #0093ed;
-    border-bottom: 2px solid #0093ed;
+    border-top: 2px solid var(--text-primary-color);
+    border-bottom: 2px solid var(--text-primary-color);
     transition: all .3s;
 }
 
 .values1:hover p {
-    color: #0093ed;
+    color: var(--text-primary-color);
 }
 
 .info_list li:before {
@@ -304,7 +308,7 @@ header .logo {
     bottom: 25px;
     cursor: pointer;
     padding: 10px 15px;
-    background: #0093ed;
+    background: var(--bg-primary);
     border: 1px solid white;
     font-weight: bold;
     size: 20px;
