@@ -153,8 +153,7 @@ header .logo {
 }
 
 .values1:hover {
-    border-top: 2px solid var(--text-primary-color);
-    border-bottom: 2px solid var(--text-primary-color);
+    border: 2px solid var(--text-primary-color);
     transition: all .3s;
 }
 
