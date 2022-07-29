@@ -147,9 +147,6 @@ header .logo {
 .values1:hover p {
     color: var(--text-primary-color);
 }
-.about-img-h:hover img{
-    filter: invert(10%) sepia(40%) saturate(6996%) hue-rotate(173deg) brightness(94%) contrast(98%);
-}
 .nav-scroll{
     position: relative;
     overflow-y: hidden;
