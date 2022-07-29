@@ -260,6 +260,10 @@ header .logo {
 .industries{
     display: none;
 }
+.count{
+    background-image: url("../img/home_page-2.jpg");
+    background-position: center;
+}
 
 /* canvas {
     display: block; }
