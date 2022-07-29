@@ -261,6 +261,9 @@ header .logo {
     background-image: url("../img/home_page-2.jpg");
     background-position: center;
 }
+.footer-bg{
+    background-image: url("../img/footer-background-image-104954.jpg");
+}
 
 /* canvas {
     display: block; }
@@ -282,7 +285,7 @@ header .logo {
 #to-top {
     position: fixed;
     right: 30px;
-    bottom: 25px;
+    bottom: 35px;
     cursor: pointer;
     padding: 10px 15px;
     background: var(--bg-primary);
