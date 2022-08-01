@@ -5,6 +5,7 @@
 * {
     box-sizing: border-box;
     text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /* margin: 0 auto; */
 }
 
