@@ -139,14 +139,6 @@ header .logo {
     color: var(--text-primary-color);
 }
 
-.values1:hover {
-    border: 2px solid var(--text-primary-color);
-    transition: all .3s;
-}
-
-.values1:hover p {
-    color: var(--text-primary-color);
-}
 .nav-scroll{
     position: relative;
     overflow-y: hidden;
