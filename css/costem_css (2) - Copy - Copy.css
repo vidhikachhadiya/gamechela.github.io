@@ -290,3 +290,10 @@ header .logo {
     display: none;
     z-index: 99;
 }
+
+@media (max-width:576px) {
+    .logo1 a img{
+        width: 50% !important;
+    }
+    
+}
